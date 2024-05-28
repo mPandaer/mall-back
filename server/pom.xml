@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.pandaer.project</groupId>
+        <artifactId>m-mail</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>server</artifactId>
+
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.framework.version>1.0-SNAPSHOT</project.framework.version>
+    </properties>
+
+    <dependencies>
+        <!--web模块-->
+        <dependency>
+            <groupId>com.pandaer.project</groupId>
+            <artifactId>web</artifactId>
+            <version>${project.framework.version}</version>
+        </dependency>
+
+        <!--orm模块-->
+        <dependency>
+            <groupId>com.pandaer.project</groupId>
+            <artifactId>mybatis-plus-orm</artifactId>
+            <version>${project.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pandaer.project</groupId>
+            <artifactId>validation</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pandaer.project</groupId>
+            <artifactId>redis-cache</artifactId>
+            <version>${project.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.pandaer.project</groupId>
+            <artifactId>api-swagger</artifactId>
+            <version>${project.framework.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+
+    </dependencies>
+
+</project>

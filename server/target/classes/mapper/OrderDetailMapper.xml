@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pandaer.project.server.modules.order.mapper.OrderDetailMapper">
+
+    <resultMap id="BaseResultMap" type="com.pandaer.project.server.modules.order.entity.OrderDetail">
+            <id property="detailId" column="detail_id" jdbcType="BIGINT"/>
+            <result property="orderId" column="order_id" jdbcType="BIGINT"/>
+            <result property="productId" column="product_id" jdbcType="BIGINT"/>
+            <result property="quantity" column="quantity" jdbcType="INTEGER"/>
+            <result property="unitPrice" column="unit_price" jdbcType="DECIMAL"/>
+            <result property="totalPrice" column="total_price" jdbcType="DECIMAL"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        detail_id,order_id,product_id,
+        quantity,unit_price,total_price
+    </sql>
+</mapper>

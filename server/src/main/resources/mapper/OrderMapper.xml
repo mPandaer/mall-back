@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pandaer.project.server.modules.order.mapper.OrderMapper">
+
+    <resultMap id="BaseResultMap" type="com.pandaer.project.server.modules.order.entity.Order">
+            <id property="orderId" column="order_id" jdbcType="BIGINT"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="addressId" column="address_id" jdbcType="BIGINT"/>
+            <result property="orderStatus" column="order_status" jdbcType="TINYINT"/>
+            <result property="totalAmount" column="total_amount" jdbcType="DECIMAL"/>
+            <result property="isDelete" column="is_delete" jdbcType="TINYINT"/>
+            <result property="createUser" column="create_user" jdbcType="BIGINT"/>
+            <result property="updateUser" column="update_user" jdbcType="BIGINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        order_id,user_id,address_id,
+        order_status,total_amount,is_delete,
+        create_user,update_user,create_time,
+        update_time
+    </sql>
+</mapper>

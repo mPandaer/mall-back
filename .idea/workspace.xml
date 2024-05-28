@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="830cb895-43c5-4622-a3e2-a37d433af5f0" name="Changes" comment="代码基本完成" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Enum" />
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/framework/api-swagger/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2fXBbEI7tbhj2O732LvBZz6AVRm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JwtProvider.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddressServiceTest.addAddress.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddressServiceTest.deleteAddress.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddressServiceTest.queryAllAddress.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AddressServiceTest.updateAddress.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvertisementServiceTest.addAD.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvertisementServiceTest.deleteAD.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvertisementServiceTest.demo.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvertisementServiceTest.pageQueryAD.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.AdvertisementServiceTest.updateAD.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FileServiceTest.upload.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FriendLinkServiceTest.addFriendLink.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FriendLinkServiceTest.deleteFriendLink.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FriendLinkServiceTest.pageQueryFriendLink.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.FriendLinkServiceTest.updateFriendLink.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JwtProviderTest.createAccessToken.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.JwtProviderTest.validateToken.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.getOrderDetailById.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.OrderServiceTest.pageQueryOrder.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.prepared.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.OrderServiceTest.updateOrderStatus.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductBrandServiceTest.addProductBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductBrandServiceTest.deleteProductBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductBrandServiceTest.pageQueryProductBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductBrandServiceTest.updateProductBrand.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.addProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.batchDeleteProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.pageQueryProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ProductServiceTest.updateProduct.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReportServiceTest.testMarketReportData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReportServiceTest.testPerformanceData.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ReportServiceTest.testTrafficItemDTO.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceImplTest.testAddUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.add.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.cache.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.cacheTemplate.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.UserServiceTest.testAddUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testDeleteUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testGetUserById.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testGetUserByName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testPageUser.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testResetPassword.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.UserServiceTest.testUpdateUser.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.m-mail [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.spring-boot-init [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BootApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;corretto-17&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/project/m-mail-admin&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.splitter.proportion&quot;: &quot;0.27522936&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;,
+      &quot;redis&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.pandaer.project.server.modules.user.po" />
+      <recent name="com.pandaer.project.server.modules.order.po" />
+      <recent name="com.pandaer.project.server.modules.spread.vo" />
+      <recent name="com.pandaer.project.server.modules.spread.po" />
+      <recent name="com.pandaer.project.server.common.file.po" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\spring-boot-init\framework\swagger\src\main\resources\META-INF" />
+      <recent name="D:\code\spring-boot-init\server\src\main\java\com\pandaer\project\modules\user\service" />
+      <recent name="D:\code\spring-boot-init\framework\web\src\main\resources\META-INF" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.pandaer.project.server.modules.user.service.impl" />
+      <recent name="com.pandaer.project.server.modules.user.service" />
+      <recent name="com.pandaer.project.server.modules.product.service.impl" />
+      <recent name="com.pandaer.project.server.modules.product.service" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.pandaer.project.server.modules.report.service.impl" />
+      <recent name="com.pandaer.project.server.modules.user.service.impl" />
+      <recent name="com.pandaer.project.server.modules.spread.service.impl" />
+      <recent name="com.pandaer.project.server.common.file.service.impl" />
+      <recent name="com.pandaer.project.server.modules.order.service.impl" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.pandaer.project.server.modules.report.dto" />
+      <recent name="com.pandaer.project.server.modules.product.controller.client" />
+      <recent name="com.pandaer.project.server.modules.product.controller" />
+      <recent name="com.pandaer.project.server.modules.product.po" />
+      <recent name="com.pandaer.project.server.modules.product.vo" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BootApplication">
+    <configuration name="AddressServiceTest.queryAllAddress" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pandaer.project.server.modules.user.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pandaer.project.server.modules.user.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.pandaer.project.server.modules.user.service.impl.AddressServiceTest" />
+      <option name="METHOD_NAME" value="queryAllAddress" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServiceTest.testMarketReportData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pandaer.project.server.modules.report.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pandaer.project.server.modules.report.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.pandaer.project.server.modules.report.service.impl.ReportServiceTest" />
+      <option name="METHOD_NAME" value="testMarketReportData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServiceTest.testPerformanceData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pandaer.project.server.modules.report.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pandaer.project.server.modules.report.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.pandaer.project.server.modules.report.service.impl.ReportServiceTest" />
+      <option name="METHOD_NAME" value="testPerformanceData" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportServiceTest.testTrafficItemDTO" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pandaer.project.server.modules.report.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.pandaer.project.server.modules.report.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="com.pandaer.project.server.modules.report.service.impl.ReportServiceTest" />
+      <option name="METHOD_NAME" value="testTrafficItemDTO" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BootApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.pandaer.project.BootApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.pandaer.project.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BootApplication" />
+        <item itemvalue="JUnit.ReportServiceTest.testTrafficItemDTO" />
+        <item itemvalue="JUnit.ReportServiceTest.testMarketReportData" />
+        <item itemvalue="JUnit.ReportServiceTest.testPerformanceData" />
+        <item itemvalue="JUnit.AddressServiceTest.queryAllAddress" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.10-corretto-17.0.10-f644763e9732-24fca987" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="830cb895-43c5-4622-a3e2-a37d433af5f0" name="Changes" comment="" />
+      <created>1713937613570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713937613570</updated>
+      <workItem from="1713937614673" duration="2672000" />
+      <workItem from="1713940361392" duration="7646000" />
+      <workItem from="1713952893615" duration="1237000" />
+      <workItem from="1713957359843" duration="7084000" />
+      <workItem from="1715408724801" duration="286000" />
+      <workItem from="1715409018373" duration="1759000" />
+      <workItem from="1715410800490" duration="5492000" />
+      <workItem from="1715417850399" duration="580000" />
+      <workItem from="1715652706108" duration="1247000" />
+      <workItem from="1715653961656" duration="18414000" />
+      <workItem from="1715682641236" duration="4360000" />
+      <workItem from="1715751692533" duration="4231000" />
+      <workItem from="1715766712881" duration="8065000" />
+      <workItem from="1715779375492" duration="47000" />
+      <workItem from="1715818962563" duration="8844000" />
+      <workItem from="1715828780473" duration="1409000" />
+      <workItem from="1715832060368" duration="2515000" />
+      <workItem from="1715834586024" duration="4682000" />
+      <workItem from="1715858588246" duration="372000" />
+      <workItem from="1715858981882" duration="7000" />
+      <workItem from="1715862561231" duration="6088000" />
+      <workItem from="1715905463632" duration="945000" />
+      <workItem from="1715906419847" duration="9412000" />
+      <workItem from="1715923207711" duration="3652000" />
+      <workItem from="1715928579201" duration="10565000" />
+      <workItem from="1716011903004" duration="7403000" />
+      <workItem from="1716023076158" duration="111000" />
+      <workItem from="1716028014633" duration="3992000" />
+      <workItem from="1716166804788" duration="6668000" />
+      <workItem from="1716173569449" duration="7449000" />
+      <workItem from="1716249179850" duration="28644000" />
+      <workItem from="1716336366467" duration="3734000" />
+      <workItem from="1716351450353" duration="5944000" />
+      <workItem from="1716617396383" duration="9784000" />
+      <workItem from="1716633843236" duration="623000" />
+      <workItem from="1716640161380" duration="355000" />
+      <workItem from="1716691910800" duration="881000" />
+      <workItem from="1716706505050" duration="3769000" />
+      <workItem from="1716764325689" duration="825000" />
+      <workItem from="1716769407257" duration="9254000" />
+      <workItem from="1716787873418" duration="10521000" />
+      <workItem from="1716850920016" duration="19598000" />
+      <workItem from="1716880704530" duration="35000" />
+    </task>
+    <task id="LOCAL-00001" summary="SpringBoot初始化模版">
+      <option name="closed" value="true" />
+      <created>1713964843014</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713964843014</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加项目介绍">
+      <option name="closed" value="true" />
+      <created>1713965044549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713965044549</updated>
+    </task>
+    <task id="LOCAL-00003" summary="项目初始化 + 用户模块Service层code + test">
+      <option name="closed" value="true" />
+      <created>1715661679667</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715661679667</updated>
+    </task>
+    <task id="LOCAL-00004" summary="将参数校验模块的校验模式修改为快速失败&#10;增加参数校验异常处理器">
+      <option name="closed" value="true" />
+      <created>1715670790144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715670790144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="补充遗漏的文件">
+      <option name="closed" value="true" />
+      <created>1715671594379</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715671594379</updated>
+    </task>
+    <task id="LOCAL-00006" summary="彻底完成用户模块">
+      <option name="closed" value="true" />
+      <created>1715819015571</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715819015571</updated>
+    </task>
+    <task id="LOCAL-00007" summary="修改测试文件">
+      <option name="closed" value="true" />
+      <created>1715819069227</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715819069227</updated>
+    </task>
+    <task id="LOCAL-00008" summary="实现基本的用户登录和注册">
+      <option name="closed" value="true" />
+      <created>1715825157667</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715825157667</updated>
+    </task>
+    <task id="LOCAL-00009" summary="重构登录认证服务，生成基本的商品管理的基本增删改查代码">
+      <option name="closed" value="true" />
+      <created>1715906349076</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715906349076</updated>
+    </task>
+    <task id="LOCAL-00010" summary="商品类型,尺码,颜色,品牌的基本增删改查">
+      <option name="closed" value="true" />
+      <created>1715913485055</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715913485055</updated>
+    </task>
+    <task id="LOCAL-00011" summary="bugfix: 增强商品的类型,尺码,颜色,品牌的批量删,调整商品,商品库存的字段信息">
+      <option name="closed" value="true" />
+      <created>1715928536747</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715928536747</updated>
+    </task>
+    <task id="LOCAL-00012" summary="bugfix: 紧急修复">
+      <option name="closed" value="true" />
+      <created>1715928706383</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1715928706383</updated>
+    </task>
+    <task id="LOCAL-00013" summary="自动生成 商品,库存表的增删改查">
+      <option name="closed" value="true" />
+      <created>1715928881360</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1715928881360</updated>
+    </task>
+    <task id="LOCAL-00014" summary="完成基本的商品管理">
+      <option name="closed" value="true" />
+      <created>1716012286580</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716012286580</updated>
+    </task>
+    <task id="LOCAL-00015" summary="生成基本的订单管理的持久层代码">
+      <option name="closed" value="true" />
+      <created>1716167744945</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1716167744945</updated>
+    </task>
+    <task id="LOCAL-00016" summary="补充Address持久层代码,实现订单管理的基本功能">
+      <option name="closed" value="true" />
+      <created>1716178772063</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1716178772063</updated>
+    </task>
+    <task id="LOCAL-00017" summary="优化商品管理模块,并生成企宣管理持久层代码">
+      <option name="closed" value="true" />
+      <created>1716279819364</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1716279819364</updated>
+    </task>
+    <task id="LOCAL-00018" summary="修改图片上传路径">
+      <option name="closed" value="true" />
+      <created>1716279861613</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1716279861613</updated>
+    </task>
+    <task id="LOCAL-00019" summary="代码基本完成">
+      <option name="closed" value="true" />
+      <created>1716880732796</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1716880732796</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SpringBoot初始化模版" />
+    <MESSAGE value="增加项目介绍" />
+    <MESSAGE value="项目初始化 + 用户模块Service层code + test" />
+    <MESSAGE value="将参数校验模块的校验模式修改为快速失败&#10;增加参数校验异常处理器" />
+    <MESSAGE value="补充遗漏的文件" />
+    <MESSAGE value="彻底完成用户模块" />
+    <MESSAGE value="修改测试文件" />
+    <MESSAGE value="实现基本的用户登录和注册" />
+    <MESSAGE value="重构登录认证服务，生成基本的商品管理的基本增删改查代码" />
+    <MESSAGE value="商品类型,尺码,颜色,品牌的基本增删改查" />
+    <MESSAGE value="bugfix: 增强商品的类型,尺码,颜色,品牌的批量删,调整商品,商品库存的字段信息" />
+    <MESSAGE value="bugfix: 紧急修复" />
+    <MESSAGE value="自动生成 商品,库存表的增删改查" />
+    <MESSAGE value="完成基本的商品管理" />
+    <MESSAGE value="生成基本的订单管理的持久层代码" />
+    <MESSAGE value="补充Address持久层代码,实现订单管理的基本功能" />
+    <MESSAGE value="优化商品管理模块,并生成企宣管理持久层代码" />
+    <MESSAGE value="修改图片上传路径" />
+    <MESSAGE value="代码基本完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="代码基本完成" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/server/src/main/java/com/pandaer/project/server/modules/user/service/impl/UserServiceImpl.java</url>
+          <line>363</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="jdk.proxy2.$Proxy87" memberName="h" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+</project>

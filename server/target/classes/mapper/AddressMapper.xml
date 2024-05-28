@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.pandaer.project.server.modules.user.mapper.AddressMapper">
+
+    <resultMap id="BaseResultMap" type="com.pandaer.project.server.modules.user.entity.Address">
+            <id property="addressId" column="address_id" jdbcType="BIGINT"/>
+            <result property="userId" column="user_id" jdbcType="BIGINT"/>
+            <result property="recipientName" column="recipient_name" jdbcType="VARCHAR"/>
+            <result property="recipientPhone" column="recipient_phone" jdbcType="VARCHAR"/>
+            <result property="province" column="province" jdbcType="VARCHAR"/>
+            <result property="city" column="city" jdbcType="VARCHAR"/>
+            <result property="address" column="address" jdbcType="VARCHAR"/>
+            <result property="isDelete" column="is_delete" jdbcType="TINYINT"/>
+            <result property="createUser" column="create_user" jdbcType="BIGINT"/>
+            <result property="updateUser" column="update_user" jdbcType="BIGINT"/>
+            <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+            <result property="updateTime" column="update_time" jdbcType="TIMESTAMP"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        address_id,user_id,recipient_name,
+        recipient_phone,province,city,
+        address,is_delete,create_user,
+        update_user,create_time,update_time
+    </sql>
+</mapper>

@@ -1,0 +1,35 @@
+{
+  "properties": [
+    {
+        "name": "project.web.config.cors-mapping",
+        "type": "java.lang.String",
+        "description": "跨域范围",
+        "defaultValue": "/**"
+    },
+    {
+        "name": "project.web.config.allowed-credentials",
+        "type": "java.lang.Boolean",
+        "description": "是否允许携带Cookie",
+        "defaultValue": true
+    },
+    {
+        "name": "project.web.config.allowed-headers",
+        "type": "java.lang.String[]",
+        "description": "允许的请求头",
+        "defaultValue": ["*"]
+    },
+    {
+        "name": "project.web.config.allowed-methods",
+        "type": "java.lang.String[]",
+        "description": "允许的请求方法",
+        "defaultValue": ["*"]
+    },
+    {
+        "name": "project.web.config.allowed-origin-patterns",
+        "type": "java.lang.String[]",
+        "description": "允许的跨域请求来源模式",
+        "defaultValue": ["*"]
+    }
+]
+
+}
